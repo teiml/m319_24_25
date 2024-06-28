@@ -1,0 +1,91 @@
+site_name: Modul 319 Applikationen entwerfen und implementieren
+site_url: https://kantonsschuleambruehl.gitlab.io/m319/
+nav:
+  - 0. Handlungsziele: index.md
+  - 1. Einstieg:
+      - 1. Was ist ein Programm: 1-10.md
+      - 2. Die Sprache C: 1-20.md
+      - 3. Werkzeuge für C: 1-30.md
+      - 4. CodeBlocks und GCC: 1-40.md
+  - 2. Erste Schritte in C:
+      - 1. Ausgabe: 2-10.md
+      - 2. Kommentare: 2-20.md
+      - 3. Hallo Welt: 2-30.md
+  - 3. Basisdatentypen in C: 
+      - 1. Variablen: 3-10.md
+      - 2. Ganzzahlen: 3-20.md
+      - 3. Fliesskommazahlen: 3-30.md
+      - 4. Formatzeichen: 3-40.md
+      - 5. Konstanten: 3-50.md
+      - 6. Regeln für Variablennamen: 3-60.md
+  - 4. Sequenzen:
+      - 1. Die Rechenoperatoren: 4-10.md
+      - 2. Zuweisungsoperatoren: 4-20.md
+      - 3. Daten einlesen: 4-30.md
+      - 4. Programmaufbau: 4-40.md
+      - 5. Mathematikbibliothek: 4-50.md
+  - 5. Selektion:
+      - 1. Verzweigungen: 5-10.md
+      - 2. Struktogramme: 5-20.md
+      - 3. Verschachtelungen: 5-30.md
+      - 4. Formatierregeln für Code: 5-40.md
+      - 5. switch .. case .. : 5-50.md
+  - 6. Iteration:
+      - 1. while Schleife: 6-10.md
+      - 2. Schleifenvariable: 6-20.md
+      - 3. do .. while Schleife: 6-30.md
+      - 4. Summieren mit einer Schleife: 6-40.md
+      - 5. Benutzereingaben validieren: 6-50.md
+      - 6. for Schleife: 6-60.md
+  - 7. Funktionen:
+      - 1. Einführung: 7-10.md
+      - 2. Funktionen ohne Parameter: 7-20.md
+      - 3. Funktionen mit Parameter: 7-30.md
+      - 4. Funktionen mit Rückgabe: 7-40.md
+      - 5. Funktionen mit beidem: 7-50.md
+  - 8. Arrays:
+      - 1. Problemstellung: 8-10.md
+      - 2. Lösung: 8-20.md
+      - 3. Array und for-Schleife: 8-30.md
+      - 4. Initialisierung von Arrays: 8-40.md
+  - 9. Komplexe Datentypen:
+      - 1. Einführung: 9-10.md
+theme:
+  name: material
+  logo: img/KSB_logo.svg
+  favicon: img/favicon-32x32.png  
+  language: de
+  features:
+    - navigation.instant
+    - toc.integrate
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+      toc_depth: 2
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+copyright: 2022 <a href='https://www.ksb-sg.ch'><span style='font-weight:1000'>ksb-</span>sg.ch</a> <span class='green'>|</span> Informatik <span class='green'>|</span> Modul 319
+extra:
+  social:
+    - icon: material/home
+      link: https://www.ksb-sg.ch
+      name: KSB

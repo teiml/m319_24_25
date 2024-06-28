@@ -1,0 +1,119 @@
+:root {
+    --md-primary-fg-color: #96B967;
+    --md-accent-fg-color: #797c7a;
+}
+
+.container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.abstract .admonition-title {
+    background-color: #E01272 !important;
+    color: white;
+}
+
+.admonition.abstract {
+    border-left: .2rem solid #737471 !important;
+}
+
+.abstract>.admonition-title::before {
+    background-color: white !important;
+}
+
+.md-typeset [type="checkbox"]:checked+.task-list-indicator::before {
+    background-color: #E01272 !important;
+}
+
+img+br+em {
+    font-size: smaller;
+    color: #797c7a;
+}
+
+.md-nav__title .md-nav__button.md-logo img {
+    width: inherit;
+    border: none;
+}
+
+code {
+    border: 1px solid #797c7a;
+}
+
+label.md-nav__link {
+    font-weight: bold;
+}
+
+.md-header__button.md-logo img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.md-typeset__table th {
+    background-color: #E01272 !important;
+}
+
+.bg-yellow {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.bg-green {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.bg-red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.md-header__title .md-ellipsis {
+    background-color: #797c7a;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    font-weight: 800;
+    transform: rotate(-0deg);
+}
+
+
+/*.md-header__title .md-ellipsis::after {
+    font-weight: 900;
+    bottom: 0;
+    color: #E01272;
+    content: '.';
+    position: absolute;
+    transform: translate(-100%, 0);
+}*/
+
+.md-footer__title .md-ellipsis::after {
+    bottom: 0;
+    color: #E01272;
+    content: '.';
+    position: absolute;
+    transform: translate(-100%, 0);
+}
+
+.md-footer__link--prev {
+    bottom: 0;
+    color: #111111;
+    content: '.';
+    position: absolute;
+    transform: translate(0, 0);
+}
+
+.md-footer__link--next {
+    bottom: 0;
+    color: #111111;
+    content: '.';
+    position: absolute;
+    transform: translate(0, 0);
+}
